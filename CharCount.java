@@ -10,6 +10,6 @@ public class CharCount {
         int charCount = words.replace(" ", "").length();
 
         System.out.println("Total number of characters (excluding spaces): " + charCount);
-        scanner.close();
+        scanner.close()
     }
 }
